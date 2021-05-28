@@ -1,6 +1,14 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "independent"
+  "packages": ["packages/*"],
+  "version": "independent",
+  "changelog": {
+    "repo": "https://github.com/sclchic/lerna_test5.git",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
+  }
 }
