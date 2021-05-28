@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "version": "independent",
   "changelog": {
-    "repo": "https://github.com/sclchic/lerna_test5.git",
+    "repo": "https://github.com/sclchic/lerna_changelog.git",
     "labels": {
       "enhancement": ":rocket: Enhancement",
       "bug": ":bug: Bug Fix",
