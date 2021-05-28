@@ -2,12 +2,15 @@
   "packages": ["packages/*"],
   "version": "independent",
   "changelog": {
-    "repo": "https://github.com/sclchic/lerna_changelog.git",
+    "repo": "sclchic/lerna_test5",
     "labels": {
-      "enhancement": ":rocket: Enhancement",
-      "bug": ":bug: Bug Fix",
-      "doc": "Refine Doc",
-      "feat": "New Feature"
+      "tag: new feature": ":rocket: New Feature",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: bug fix": ":bug: Bug Fix",
+      "tag: enhancement": ":nail_care: Enhancement",
+      "tag: documentation": ":memo: Documentation",
+      "tag: internal": ":house: Internal",
+      "tag: underlying tools": ":hammer: Underlying Tools"
     },
     "cacheDir": ".changelog"
   }
